@@ -1,0 +1,42 @@
+#jeu{
+position:relative;
+width: 250px;
+height: 250px;
+background-color: #2a2a2a;
+border: 1px solid #555;
+margin: 50px auto;
+box-shadow: 3px 8px 3px #bbb;
+padding: 10px;
+overflow: auto;
+}
+
+#jeu div{
+ width: 190px;
+ margin: auto;
+ clear: both;  
+}
+
+#jeu button{
+width: 50px;
+height: 50px;
+margin: 8px;
+float: left;
+font-weight: bold;
+}
+
+#gameStatus{
+  color: #fff;
+  padding: 15px 10px;
+}
+
+#principal { 
+margin-top: 2%; 
+float: right; 
+padding: 1em;
+margin-right: 1%;
+text-align: justify;
+width:76%;
+background-color: #C5C5F9;
+border: 5px double #550099;
+border-radius: 20px;
+}

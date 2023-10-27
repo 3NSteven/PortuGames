@@ -1,0 +1,155 @@
+* {
+	margin: 0; padding: 0;
+}
+
+html, body {
+	font-family: Arial;
+}
+
+#wrapper {
+	margin: auto; /*margin-top: 100px;*/
+	width: 1000px;
+}
+
+#demineur {
+	margin: auto;
+	border-collapse: collapse;
+}
+
+#demineur td {
+	width: 15px; height: 15px;
+	
+	border: 1px solid #bfbfbf;
+	background: #f9f9f9;
+	
+	text-align: center; line-height: 15px;
+	font-weight: bold; font-size: 14px;
+	
+	cursor: default;
+}
+
+#retour {
+  width: 10%;
+}
+
+#son {
+  width:10%;
+}
+
+/*
+Les CSS (Cascading Style Sheets, c'est à dire "feuilles de styles en cascade") sont utilisés pour définir la présentation des pages Web.
+Grâce à eux, votre code HTML ne vous servira désormais qu'à définir le contenu.
+Les CSS vous permettront de créer vos styles et le design général de votre site Internet.
+
+*/
+
+body {
+ background-color:  #C1FC39 ; 
+ font-size: 100%;
+ color: black;
+ margin-top: 2%; 
+ background: url(ptt.jpg) no-repeat fixed;
+ webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@font-face {
+    font-family: test;
+    src: url(OLD.ttf);
+}
+  
+ .menu {
+  float: left; 
+  margin-top: 2%;
+  margin-left: 1%;
+  width:12%;
+  background-color: #C5C5F9;
+  text-align: left;
+  border: 1px solid green;
+  padding: 1em;
+  border-radius: 8px;
+  }
+  
+  
+ 
+  .titre{
+  margin-left: 1%; 
+  /* white-space : pre-line; */
+  text-align: center;
+  width:98%;
+  background-color:  #FFAE00;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  font-size: 50px;
+  font-family: test;
+  }
+  
+   
+.principal { 
+	white-space : pre-line;
+	margin-top: 2%; 
+  float: right; 
+ padding: 1em;
+  margin-right: 1%;
+  text-align: justify;
+  width:76%;
+  background-color: #C5C5F9;
+  border: 5px double #550099;
+  border-radius: 20px;
+  }
+
+
+.gamescreen { 
+	white-space : pre-line;
+	margin-top: 2%; 
+  float: none; 
+ padding: 1em;
+  margin: auto;
+  text-align: justify;
+  width:76%;
+  background-color: #C5C5F9;
+  border: 5px double #550099;
+  border-radius: 20px;
+  }
+
+ .back {
+  position: fixed;
+  top: 16px;
+  left: 32px;
+  font-size: 18px;
+  opacity: 0.33;
+  float: left;
+  width: 120%;
+}
+
+.endgame {
+  position: absolute;
+  display: block;
+  left: 30%;
+  opacity: 0.9;
+  z-index:1; 
+}
+
+.life {
+  position: absolute;
+  float: right; 
+  margin-right: 1%;
+  height: 80%;
+}
+
+
+
+h1 {
+ font-size: 150%; 
+ color: blue; 
+ text-align: center;
+}
+
+h2 {
+ font-size: 100%; 
+ color: EE0000;
+ font-family: arial;
+}
+
